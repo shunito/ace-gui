@@ -4,6 +4,7 @@ const enJson = require("./locales/en.json");
 const frJson = require("./locales/fr.json");
 const pt_BRJson = require("./locales/pt_BR.json");
 const esJson = require("./locales/es.json");
+const jaJson = require("./locales/ja_JP.json");
 
 export const localizer = newLocalizer({
     en: {
@@ -22,5 +23,9 @@ export const localizer = newLocalizer({
     es: {
         name: "Español",
         translation: esJson,
+    },
+    es: {
+        name: "Japanese",
+        translation: jaJson,
     },
 });
