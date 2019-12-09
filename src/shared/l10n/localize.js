@@ -24,7 +24,7 @@ export const localizer = newLocalizer({
         name: "Español",
         translation: esJson,
     },
-    es: {
+    ja: {
         name: "Japanese",
         translation: jaJson,
     },
