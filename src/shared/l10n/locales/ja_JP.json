@@ -1,0 +1,163 @@
+{
+    "dialog": {
+        "allfiles": "すべてのファイル",
+        "check": "チェック",
+        "choosedir": "ディレクトリを選ぶ",
+        "chooseepub": "EPUBファイルかフォルダを選ぶ",
+        "chooseepubdir": "EPUBディレクトリ選択",
+        "chooseepubfile": "EPUBファイル選択",
+        "choosereport": "Aceレポートを選ぶ",
+        "open": "オープン",
+        "savereport": "レポートを保存",
+        "select": "選択",
+        "ziparchive": "Zip圧縮"
+    },
+    "enhancedTable": {
+        "filterBy": "絞り込み",
+        "rowsPerPage": "表示件数:",
+        "sortBy": "ソート: "
+    },
+    "kbgoonline": "GO ONLINE",
+    "menu": {
+        "about": "Aceについて",
+        "ace": "Ace",
+        "checkEpub": "EPUBチェック...",
+        "checkEpubFolder": "EPUBフォルダをチェック...",
+        "closeReport": "レポートを閉じる",
+        "copy": "コピー",
+        "copyMessageOutput": "メッセージをコピー",
+        "cut": "カット",
+        "dev": "開発",
+        "edit": "編集",
+        "exportReport": "レポート出力",
+        "file": "ファイル",
+        "gotoImages": "画像へ",
+        "gotoMetadata": "メタデータへ",
+        "gotoOutlines": "アウトラインへ",
+        "gotoSummary": "サマリーへ",
+        "gotoViolations": "違反へ",
+        "help": "ヘルプ",
+        "knowledgeBase": "ナレッジベース",
+        "knowledgeBaseOffline": "ローカル (オフライン)",
+        "knowledgeBaseOnline": "ウェブ (オンライン)",
+        "learnMore": "Learn more",
+        "openReport": "レポートを開く...",
+        "paste": "ペースト",
+        "quit": "閉じる",
+        "redo": "再実行",
+        "reload": "再読込",
+        "reportIssue": "イシュー",
+        "rerunAce": "Aceに戻る",
+        "selectall": "すべてを選択",
+        "showInExplorer": "Explorerで開く",
+        "showInFinder": "Finderで開く",
+        "toggleDevTools": "開発者ツール",
+        "undo": "元に戻す",
+        "view": "表示",
+        "window": "ウィンドウ"
+    },
+    "message": {
+        "checkcomplete": "Ace チェック完了",
+        "closedreport": "レポート {{reportPath}} を閉じました。",
+        "failsavereport": "エラー: レポートファイル {{outfile}} が保存できません",
+        "filetypenotsupported": "エラー: ファイルタイプ {{filepath}} はサポートしていません",
+        "loadedreport": "レポート {{reportPath}} を読み込みました",
+        "loadfailreport": "エラー: ファイル {{p}} が読み込みません",
+        "overwrite": "Output directory is not empty. Running Ace would overwrite the following files or directories: \n{{val}}.\nEnable the option 'Overwrite' to allow this.",
+        "runningace": "ファイル {{inputPath}} をAceで実行中",
+        "savedreport": "レポート {{outfile}} を保存しました",
+        "savingreport": "レポート {{outfile}} を保存中..."
+    },
+    "preferences": {
+        "cancel": "キャンセル",
+        "internalReportStorage": "レポート保存領域",
+        "overwriteExistingReports": "レポート生成時に上書きする",
+        "overwriteExistingReportsTip": "(以前のレポートに新しいレポートを上書きすることを許可しますか？)",
+        "reportsDataDirectory": "レポートデータディレクトリ",
+        "reportsDataDirectoryButton": "ブラウズ",
+        "reportsDataDirectoryTip": "(Aceはレポートを内部に保存します)",
+        "save": "保存",
+        "title": "Ace 設定",
+        "userInterfaceLanguage": "言語",
+        "userInterfaceLanguageTip": "(UIラベルとメッセージの言語を選択)"
+    },
+    "report": {
+        "images": "画像",
+        "imagesSection": {
+            "NA": "N/A",
+            "altAttribute": "'alt' 属性",
+            "ariaDescribedbyContent": "'aria-describedby' コンテンツ",
+            "associatedFigcaption": "関連する 'figcaption'",
+            "image": "画像",
+            "location": "Location",
+            "noImages": "この出版物に画像はありません。",
+            "role": "ロール"
+        },
+        "metadata": "メタデータ",
+        "metadataSection": {
+            "a11y": "アクセシビリティ",
+            "allPresent": "すべての必要なアクセシビリティメタデータが存在します。",
+            "missing": "アクセシビリティメタデータがありません：",
+            "name": "名前",
+            "value": "直"
+        },
+        "outlines": "アウトライン",
+        "outlinesSection": {
+            "headings": "見出しのアウトライン",
+            "html": "HTML アウトライン",
+            "toc": "EPUB コンテンツ一覧"
+        },
+        "summary": "サマリー",
+        "summarySection": {
+            "best-practice": "ベストプラクティス",
+            "critical": "致命的",
+            "minor": "軽度",
+            "moderate": "中程度",
+            "other": "その他",
+            "serious": "重大",
+            "total": "合計",
+            "type": "タイプ"
+        },
+        "title": "レポート",
+        "violations": "違反",
+        "violationsSection": {
+            "details": "詳細",
+            "impact": "インパクト",
+            "learnAbout": "Learn about:",
+            "location": "ロケーション",
+            "noViolations": "違反はありません。",
+            "rule": "ロール",
+            "ruleset": "ルールセット",
+            "via": "Via:"
+        }
+    },
+    "sidebar": {
+        "checkEPUB": "EPUBをチェック",
+        "export": "エクスポート",
+        "history": "履歴",
+        "maximize": "サイドバーを開く",
+        "minimize": "サイドバーを閉じる",
+        "reRun": "再実行",
+        "settings": "設定"
+    },
+    "splash": {
+        "browseForFileOrFolder": "__file__ または __folder__ を参照します。",
+        "clickToBrowse": "クリックして表示",
+        "dropHere": "EPUBファイルまたはディレクトリをドロップしてください。",
+        "or": "または",
+        "orDropSidebar": "またはサイドバーの __ ボタン",
+        "title": "Ace, by DAISY"
+    },
+    "tablePagination": {
+        "firstPage": "最初のページ",
+        "lastPage": "最後のページ",
+        "nextPage": "次のページ",
+        "previousPage": "前のページ"
+    },
+    "versionCheck": {
+        "newVersionAvailable": "ソフトウェア更新プログラムが利用可能です。ダウンロードしますか？",
+        "no": "いいえ",
+        "softwareUpdate": "ソフトウェアの更新",
+        "yes": "はい"
+    }
+}
