@@ -33,6 +33,10 @@
 
   .violations {
 
+    th {
+      white-space: nowrap;
+    }
+
     .violation-engine {
       font-style: italic;
     }
@@ -50,7 +54,7 @@
     .impact {
       span {
         display:inline-block;
-        height:1.5em;
+        white-space: nowrap;
         padding: .4em;
         border-radius:4px;
         font-family:monospace;
